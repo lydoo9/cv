@@ -1,0 +1,101 @@
+/****tag selectors****/
+h1 {
+  color: #ec823a;
+  font-size: 50px;
+
+}
+
+h2{
+  color: #fe8a71;
+  font-size: 30px;
+
+
+}
+
+p {
+  color: #383e56;
+
+}
+
+hr{
+  border-style: none;
+  border-top: dotted;
+  border-width: 7px;
+  border-color: #fe8a71;
+  width: 10%;
+  height: 0;
+  background-color: #fce2ce;
+  padding: 20px 20px;
+}
+
+body{
+  background-color: #fce2ce;
+}
+
+/*****CLASS SELECTORS*****/
+.special {color: #383e56;}
+
+.center {text-align: center;}
+
+.profilephoto {border-radius: 50%; max-width: 10%;}
+
+.rightalign {text-align: right;}
+
+.container:hover .image {
+  opacity: 0.3;
+}
+
+.container:hover .middle {
+  opacity: 1;
+}
+
+.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+top: 10%;
+left: 15%;
+transform:
+  transform: translate(50%, 50%);
+  -ms-transform: translate(50%, 50%)
+}
+.hovertext {
+  color: #ec823a;
+  font-size: 40px;
+  font: bold;
+  padding: 0px 0px;
+}
+.rightheader
+li{
+  float:right;
+ list-style-type: none;
+  overflow: hidden;
+  margin: 10px;
+  padding: 20px;
+  display: inline;
+
+}
+.headingtext
+{
+  font-family: brandon-grotesque,HelveticaNeue-Light,"Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+  font-weight: 400;
+  font-size: 120%;
+}
+.nounderline
+a:link {
+  text-decoration: none;
+}
+
+
+/******ID SELECTORS******/
+#tableheader {color: #303960;
+font-size: 20px;}
